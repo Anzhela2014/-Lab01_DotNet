@@ -103,40 +103,76 @@
 //     Console.WriteLine("Деление на ноль невозможно!");
 
 
-Console.WriteLine(int.MaxValue);
-Console.WriteLine(int.MinValue);
-Console.WriteLine(double.MaxValue);
-Console.WriteLine(double.MinValue);
+// Console.WriteLine(int.MaxValue);
+// Console.WriteLine(int.MinValue);
+// Console.WriteLine(double.MaxValue);
+// Console.WriteLine(double.MinValue);
 
 
-Console.WriteLine("Анкета");
+// Console.WriteLine("Анкета");
 
-Console.Write("Имя: ");
-string n =Console.ReadLine();
+// Console.Write("Имя: ");
+// string n =Console.ReadLine();
 
-Console.Write("Фамилия: ");
-string f=Console.ReadLine();
+// Console.Write("Фамилия: ");
+// string f=Console.ReadLine();
 
-Console.Write("Группа: ");
-string g=Console.ReadLine();
+// Console.Write("Группа: ");
+// string g=Console.ReadLine();
 
-Console.Write("Год рождения: ");
-int y=int.Parse(Console.ReadLine());
+// Console.Write("Год рождения: ");
+// int y=int.Parse(Console.ReadLine());
 
-Console.Write("Балл: ");
-double b=double.Parse(Console.ReadLine());
-int a=2026 - y;
+// Console.Write("Балл: ");
+// double b=double.Parse(Console.ReadLine());
+// int a=2026 - y;
 
-string s;
-if (b >= 4.5) 
-    s="Отличник";
-else 
-    s="Хорошист";
+// string s;
+// if (b >= 4.5) 
+//     s="Отличник";
+// else 
+//     s="Хорошист";
 
-Console.WriteLine("\nИтог:");
-Console.WriteLine($"ФИО: {n} {f}");
-Console.WriteLine($"Группа: {g}");
-Console.WriteLine($"Возраст: {a}");
-Console.WriteLine($"Балл: {b}");
-Console.WriteLine($"Статус: {s}");
-Console.WriteLine($"До 30 лет: {30-a}");
+// Console.WriteLine("\nИтог:");
+// Console.WriteLine($"ФИО: {n} {f}");
+// Console.WriteLine($"Группа: {g}");
+// Console.WriteLine($"Возраст: {a}");
+// Console.WriteLine($"Балл: {b}");
+// Console.WriteLine($"Статус: {s}");
+// Console.WriteLine($"До 30 лет: {30-a}");
+//зд 1
+// string g="Геншин";
+// int c=7;
+// double p=3.14;
+// char b='A';
+
+// Console.WriteLine(g);
+// Console.WriteLine(c);
+// Console.WriteLine(p);
+// Console.WriteLine(b);
+
+//zd 2
+// Console.WriteLine("I");
+// Console.WriteLine("need");
+// Console.WriteLine("more");
+// Console.WriteLine("power!");
+//zd3
+// Console.WriteLine("\"Hello There\"");
+//zd 4
+// int m =int.Parse(Console.ReadLine());
+// int s =int.Parse(Console.ReadLine());
+// int k =int.Parse(Console.ReadLine());
+// int my =int.Parse(Console.ReadLine());
+// int sum = (m + s + k + my) * 3;
+// Console.WriteLine(sum);
+
+//zd 5
+// int a = int.Parse(Console.ReadLine());
+// int b = int.Parse(Console.ReadLine());
+// int ab=a+b;
+// int res=3*ab*ab*ab+275 * b * b - 127 * a - 41;
+// Console.WriteLine(res);
+double c=double.Parse(Console.ReadLine());
+double f=c*1.8+32;
+Console.WriteLine("Температура: " +f+ "°F");
+
